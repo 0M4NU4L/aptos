@@ -40,4 +40,4 @@ Module Name: SimpleVoting
 
 Contract Address: 0xbc93c9b32faa6172550fec69b959f657e42c470b798b6629d2c0ab6ab69ec886
 
-(image.png)
+[(image.png)](https://drive.google.com/file/d/1wmQLZeaXwCEcjnaldNvTMkGVnCdz7ZNy/view?usp=sharing)
