@@ -1,43 +1,45 @@
-SimpleVoting Module
+# 🗳 SimpleVoting Module
 
-📄 Project Description
-SimpleVoting is a Move smart contract deployed on the Aptos blockchain that enables users to create and participate in decentralized voting polls. Each poll is created with a set of options, and participants can cast a single vote. Once a user has voted, they cannot vote again, and the contract enforces that the poll must be active to allow participation.
+## 📄 Project Description  
+*SimpleVoting* is a Move smart contract deployed on the *Aptos blockchain* that enables users to create and participate in decentralized voting polls.  
 
-Key Features:
+Each poll is initialized with a list of options, and participants are allowed to cast a *single vote. Once a vote is cast, it cannot be changed or duplicated. The contract ensures that **only active polls* accept votes, providing a secure and reliable voting experience.
 
-Create a poll with multiple options.
+### 🔑 Key Features
+- ✅ Create polls with customizable voting options  
+- ✅ Enforce *one vote per user*  
+- ✅ Store all votes and voter records *on-chain*  
+- ✅ Accept votes *only while the poll is active*
 
-Enforce single vote per user.
+---
 
-Store votes and voter records on-chain.
+## 🌟 Project Vision  
+The SimpleVoting project aims to offer a lightweight, transparent, and *trustless voting system* built on Aptos.  
 
-Allow only active polls to accept votes.
+It strives to:
+- 🧑‍🤝‍🧑 Enable *community-driven decision-making*  
+- 🔐 Provide *tamper-proof, verifiable* voting records  
+- 🏛 Encourage broader *on-chain governance* for DAOs and dApps  
 
-🌟 Project Vision
-The goal of the SimpleVoting project is to provide a lightweight, transparent, and trustless voting system on the Aptos blockchain. It aims to:
+---
 
-Empower community-driven decisions without a central authority.
+## 🔮 Future Scope
+Planned enhancements include:
+- ⏰ Add expiration timestamps for polls  
+- 🛑 Support for manual or automatic poll closure  
+- 📢 Add event logging for poll creation and votes  
+- 🏆 Implement result querying and winner calculation  
+- 🔒 Support for *public/private* poll visibility  
+- 🌐 Integrate with front-end dApps for easier access  
 
-Offer tamper-proof and verifiable voting records.
+---
 
-Encourage more on-chain governance mechanisms for DAOs and decentralized applications.
+## 📜 Contract Details
+- *Module Name:* SimpleVoting  
+- *Contract Address:*  
+  0xbc93c9b32faa6172550fec69b959f657e42c470b798b6629d2c0ab6ab69ec886
 
-🔮 Future Scope
-Add poll expiration timestamps.
+---
 
-Allow users to close polls manually or automatically.
-
-Add event logging for poll creation and vote casting.
-
-Implement result querying and winner calculation logic.
-
-Add support for poll visibility (public/private polls).
-
-Integrate with front-end dApps for user-friendly interaction.
-
-📜 Contract Details
-Module Name: SimpleVoting
-
-Contract Address: 0xbc93c9b32faa6172550fec69b959f657e42c470b798b6629d2c0ab6ab69ec886
-
-[(image.png)](https://drive.google.com/file/d/1wmQLZeaXwCEcjnaldNvTMkGVnCdz7ZNy/view?usp=sharing)
+## 🖼 Visual Overview  
+[![SimpleVoting Diagram](https://drive.google.com/uc?export=view&id=1wmQLZeaXwCEcjnaldNvTMkGVnCdz7ZNy)](https://drive.google.com/file/d/1wmQLZeaXwCEcjnaldNvTMkGVnCdz7ZNy/view?usp=sharing)
