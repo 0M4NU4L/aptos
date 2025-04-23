@@ -1,11 +1,13 @@
 [package]
-name = "contract"
+name = "mooc"
 version = "1.0.0"
 authors = []
 
 [addresses]
+my_add='0xbc93c9b32faa6172550fec69b959f657e42c470b798b6629d2c0ab6ab69ec886'
 
 [dev-addresses]
+my_add='0xbc93c9b32faa6172550fec69b959f657e42c470b798b6629d2c0ab6ab69ec886'
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-framework.git"
